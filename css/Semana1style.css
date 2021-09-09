@@ -230,3 +230,15 @@ hr{
     font-weight: bold;
     color: darkgoldenrod;
 }
+footer{
+    
+    color: aliceblue;
+    font-family:monospace;
+    padding: 100px 15px;
+
+   
+}
+footer ul li:hover{
+    resize: horizontal;
+}
+    
