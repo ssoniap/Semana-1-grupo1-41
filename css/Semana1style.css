@@ -74,7 +74,7 @@ body {
 
 .section-1 {
     height: 500px;
-    background-color: rgb(50, 119, 131);
+    background-color: rgb(255, 255, 255);
 }
 
 .section-2 {
@@ -148,7 +148,7 @@ body {
 
 .news {
     width: 100%;
-    background-color: rgb(97, 95, 95);
+    background-color: white;
     height: 240px;
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
@@ -162,7 +162,7 @@ body {
 .news-data {
     width: 49%;
     height: 100%;
-    background-color: rgb(97, 95, 95);
+    background-color: rgba(87, 17, 87, 0.699);
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
     display: inline-flex;
@@ -170,13 +170,13 @@ body {
 
 .news-image {
     margin: 20px 0;
-    padding: 0 40px;
+    padding: 0 20px;
     color: white;
 }
 
 .news-text {
     color: white;
-    text-align: justify;
+    text-align: start;
     width: 49%;
     /* padding: 1em 0; */
 }
@@ -191,7 +191,7 @@ body {
 }
 
 .news-url>a {
-    color: #9ac9db;
+    color: rgb(233, 204, 39);
 }
 
 hr {
@@ -221,5 +221,15 @@ hr {
 .main-menu__link:hover {
     text-decoration: underline;
     font-weight: bold;
-    color: rgb(11, 14, 184);
+    color: darkgoldenrod;
+}
+
+footer {
+    color: aliceblue;
+    font-family: monospace;
+    padding: 100px 15px;
+}
+
+footer ul li:hover {
+    resize: horizontal;
 }
